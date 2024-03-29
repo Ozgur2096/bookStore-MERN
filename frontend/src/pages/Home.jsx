@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { AiOutlineEdit } from 'react-icons/ai';
 import { BsInfoCircle } from 'react-icons/bs';
 import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
+import BooksCard from '../../components/Home/BooksCard';
+import BooksTable from '../../components/Home/BooksTable';
 
 const Home = () => {
   const [books, setBooks] = useState([]);
